@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url(menu/habugue.css);
+@import url(menu/carrossel.css);
+
+:root{
+    --cor-de-fundo:#C4C4C4;
+    --cor-branco:#FFFFFF;
+    --cor-azul:#002F52;
+    --cor-laranja:#EB9B00;
+    --font--poppi:"Poppins", sans-serif;
+}
+
+.menu__de__pesquisa{
+    background-color: var(--cor-azul);
+    height: 215px;
+    color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu__de__pesquisa__titulo{
+    font-family: var(--font--poppi);
+    font-weight: 700;
+    font-size: 1.1em;
+    font-style: normal;
+    padding-top: 32px;
+    padding-bottom: 12px;
+}
+.menu__de__pesquisa__texto{
+    text-align: center;
+    font-family: var(--font--poppi);
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.menu__de__pesquisa__inputs{
+    width: 340px;
+    height: 44px;
+    background-color: var(--cor-azul);
+    border: 1px solid var(--cor-branco);
+    border-radius: 24px;
+    margin-top: 24px;
+}
+::placeholder{
+    color: var(--cor-branco);
+    text-align: center;
+    font-family: var(--font--poppi);
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 14px;
+    background: url(img/Lupa.svg);
+    background-repeat: no-repeat;
+    background-position: 2.5em;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: var(--font--poppi);
+    font-weight: 400;
+    font-size: 16px;
+}

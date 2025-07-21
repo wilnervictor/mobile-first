@@ -1,0 +1,51 @@
+.cabessalho__inicio__habuguer{
+    width: 24px;
+    height: 24px;
+    background: url(../img/Menu.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.cabessalho__inicio{
+ width: 100%;
+ background-color: var(--cor-branco);
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ position: relative;
+}
+.cabessalho__inicio__navegacao__menu__esquerdo{
+    display: flex;
+    align-items: center;
+}
+.cabessalho__inicio__imagem{
+    padding: 1rem;
+}
+.lista__menu{
+    position: absolute;
+    top: 100%;
+    display: none;
+    width: 60vw;
+}
+.cabessalho__inicio__botao:checked~.lista__menu{
+  display: block;
+}
+.lista__menu__texto, .lista__menu__item{
+   background-color: var(--cor-branco);
+   color: var(--cor-azul);
+   padding: 1em;
+}
+.lista__menu__link{
+    text-decoration: none;
+    color: var(--cor-azul);
+    font-family: var(--font--poppi);
+    font-weight: 400;
+}
+.lista__menu__texto{
+  color: var(--cor-laranja);
+  font-weight: 700;
+}
+.cabessalho__inicio__botao{
+    display: none;
+}
