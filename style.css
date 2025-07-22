@@ -2,6 +2,9 @@
 
 @import url(menu/habugue.css);
 @import url(menu/carrossel.css);
+@import url(menu/topicos.css);
+@import url(menu/contato.css);
+@import url(menu/footer.css);
 
 :root{
     --cor-de-fundo:#C4C4C4;
@@ -43,7 +46,7 @@
     border-radius: 24px;
     margin-top: 24px;
 }
-::placeholder{
+.menu__de__pesquisa__inputs::placeholder{
     color: var(--cor-branco);
     text-align: center;
     font-family: var(--font--poppi);
