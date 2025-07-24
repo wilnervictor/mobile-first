@@ -12,6 +12,8 @@
     --cor-azul:#002F52;
     --cor-laranja:#EB9B00;
     --cor-azul-forte:#001627;
+    --cor-cinza:#858585;
+    --cor-cinza-escuro:#474646;
     --font--poppi:"Poppins", sans-serif;
     --font-secudaria:"Josefin Sans", sans-serif;;
 }
@@ -72,10 +74,13 @@ body{
 .opcoes{
     display: none;
 }
+hr{
+    margin: 0;
+}
 @media screen and (min-width: 1024px) {
     .cabessalho__titulo, .cabessalho__titulo__negrito{
         font-family: var(--font-secudaria);
-        font-size: 30px;
+        font-size: 1.8rem;
     }
     .cabessalho__titulo{
         font-weight: 300;
@@ -112,5 +117,103 @@ body{
     .lista__menu{
         left: 37%;
         width: 16vw;
+    }
+    .menu__de__pesquisa__titulo{
+        font-size: 2.25rem;
+    }
+    .menu__de__pesquisa__quebra{
+        display: none;
+    }
+    .menu__de__pesquisa__inputs{
+        width: 45vw;
+    }
+    .menu__de__pesquisa__inputs::placeholder{
+        background-position: 7em;
+    }
+    .carrossel__titulo{
+        display: none;
+    }
+    .carrossel__titulo__lancamento{
+        display: block;
+        text-align: center;
+        font-size: 1.6rem;
+        color: var(--cor-laranja);
+        background-color: var(--cor-branco);
+        padding: 2em 0 0.5em 0;
+        font-weight: 700;
+    }
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+        top: 60%;
+    }
+    .swiper-pagination{
+        margin: 2em 0 3em 0;
+    }
+    .swiper{
+        width: 60%;
+        margin-top: 20px;
+    }
+    .swiper-pagination{
+        margin: 0 0 4em 0;
+    }
+    .card{
+        width: 40%;
+        margin: 2.5em auto;
+    }
+    .topicos{
+        padding: 3em 0;
+    }
+    .topicos__titulo{
+        font-size: 24px;
+    }
+    .topicos__link{
+        font-size: 24px;
+    }
+    .contato{
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+    }
+    .contato__conteine{
+        margin-right: 1em;
+        width: 30%;
+    }
+    .cantato__titulo{
+        font-size: 24px;
+    }
+    .contato__texto{
+        font-size: 16px;
+       
+    }
+    .contato__email{
+        width: 30%;
+    }
+    .rodape__titulo{
+        font-size: 24px;
+        margin: 1.5em 0;
+    }
+    .lista-rodape{
+    display: block;
+    margin: 1.8em 0;
+    }
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+    }
+    .lista-rodape__item{
+        display: flex;
+        align-items: center;
+        margin: 1.6em 0;
+    }
+    .lista-rodape__link{
+        text-decoration: none;
+        color:var(--cor-cinza-escuro);
+        font-size: 14px;
+        margin-left: 0.6em;
+    }
+    .lista-rodape__titulo{
+        color: var(--cor-cinza);
+        font-size: 14px;
+        margin-top: 2em;
     }
 }

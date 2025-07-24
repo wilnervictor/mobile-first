@@ -1,6 +1,8 @@
 .contato{
     background-color: var(--cor-branco);
     padding: 1em;
+    display: flex;
+    flex-direction: column;
 }
 .cantato__titulo{
     color: var(--cor-azul);
@@ -20,6 +22,7 @@
     background: url(../img/Email.svg);
     background-repeat: no-repeat;
     background-position: 2em;
+    align-self: center;
 }
 .contato__email::placeholder{
     color: var(--cor-azul);

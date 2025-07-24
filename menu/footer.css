@@ -4,3 +4,6 @@
 .rodape__titulo{
     padding: 1em;
 }
+.lista-rodape{
+    display: none;
+}
