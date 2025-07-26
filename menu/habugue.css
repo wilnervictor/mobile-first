@@ -49,3 +49,25 @@
 .cabessalho__inicio__botao{
     display: none;
 }
+.cabessalho__inicio__texto{
+    display: none;
+}
+@media screen and (min-width: 1728px) {
+    .cabessalho__inicio__link{
+        display: flex;
+        align-items: center;
+        padding-right: 3em;
+        text-decoration: none;
+        font-size: 20px;
+        color:var(--cor-preta-escuro);
+    }
+    .cabessalho__inicio__navegacao__menu{
+        display: flex;
+    }
+    .opcoes{
+        margin-right: auto;
+    }
+    .cabessalho__inicio__texto{
+    display: block;
+    }
+}
