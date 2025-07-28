@@ -70,4 +70,14 @@
     .cabessalho__inicio__texto{
     display: block;
     }
+
+    .menu__de__pesquisa .menu__de__pesquisa__inputs{
+        width: 35vw;
+    }
+    .menu__de__pesquisa .menu__de__pesquisa__inputs::placeholder{
+        background-position: 11.5em;
+    }
+    .cabessalho__inicio .lista__menu{
+        left: 13%;
+    }
 }

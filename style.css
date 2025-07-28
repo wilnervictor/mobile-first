@@ -49,6 +49,10 @@
     border: 1px solid var(--cor-branco);
     border-radius: 24px;
     margin-top: 24px;
+    color: var(--cor-branco);
+}
+.cabessalho__inicio__navegacao__menu{
+    display: flex;
 }
 .menu__de__pesquisa__inputs::placeholder{
     color: var(--cor-branco);
@@ -126,7 +130,7 @@ hr{
         display: none;
     }
     .menu__de__pesquisa__inputs{
-        width: 45vw;
+        width: 40vw;
     }
     .menu__de__pesquisa__inputs::placeholder{
         background-position: 7em;
