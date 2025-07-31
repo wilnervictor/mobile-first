@@ -7,3 +7,12 @@
 .lista-rodape{
     display: none;
 }
+@media screen and (min-width: 1728px){
+    .rodape .lista-rodape{
+        border-left: 1px solid var(--cor-cinza);
+        padding-left: 1em;
+    }
+    body .rodape{
+        padding: 3em 0;
+    }
+}

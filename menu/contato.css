@@ -29,3 +29,8 @@
     padding-left: 4em;
     font-family: var(--font--poppi);
 }
+@media screen and (min-width: 1728px){
+    .contato .contato__conteine{
+        padding: 3em 5vw;
+    }
+}

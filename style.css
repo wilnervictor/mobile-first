@@ -64,6 +64,7 @@
     background: url(img/Lupa.svg);
     background-repeat: no-repeat;
     background-position: 2.5em;
+    
 }
 body{
     background-color: var(--cor-de-fundo);

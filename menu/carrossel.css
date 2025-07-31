@@ -65,3 +65,29 @@
 .descriçao__estrelas{
     margin-bottom: 0.5em;
 }
+@media screen and (min-width: 1728px){
+    .carrossel .carrossel__titulo__lancamento{
+        font-size: 32px;
+    }
+    .carrosel__container{
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+    .swiper .swiper-pagination{
+       margin: 0.5em 0;
+   }
+   .carrossel .swiper{
+    width: 55%;
+   }
+   .descriçao .descriçao__titulo{
+    font-size: 32px;
+   }
+   .descriçao .descriçao__titulo__livro{
+    font-size: 18px;
+   }
+   .carrosel__container .card{
+      width: 50%;
+      margin-left: 3em;
+   }
+}
