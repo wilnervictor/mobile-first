@@ -83,6 +83,7 @@ body{
 hr{
     margin: 0;
 }
+
 @media screen and (min-width: 1024px) {
     .cabessalho__titulo, .cabessalho__titulo__negrito{
         font-family: var(--font-secudaria);
@@ -105,6 +106,7 @@ hr{
     .opcoes__item{
         padding: 1em;
         text-transform: uppercase;
+        color: black;
     }
     .opcoes__link{
         text-decoration: none;

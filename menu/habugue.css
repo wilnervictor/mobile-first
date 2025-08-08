@@ -31,6 +31,12 @@
 .cabessalho__inicio__botao:checked~.lista__menu{
   display: block;
 }
+.cabessalho__inicio__botao:checked ~ .container__rotulo > .cabessalho__inicio__habuguer{
+    background-image: url(../img/Menu\ Aberto.svg);
+}
+.cabessalho__inicio__botao:checked ~ .container__rotulo{
+    background: var(--cor-azul);
+}
 .lista__menu__texto, .lista__menu__item{
    background-color: var(--cor-branco);
    color: var(--cor-azul);
